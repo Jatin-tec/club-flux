@@ -2,7 +2,9 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 
 export default function Porjects() {
-    // let completedProjects = ['3D Printer']
+    let completedProjects = ['3D Printer', 'Surveillance Drone', 'Interactive Website Design & Development', 'Gesture Controlled Bots', 'Concrete 3D Printer', 'Basic Home Automation', 'E-Nose']
+    let ongoingProjects = ['Virtual Assistant', 'Autonomus Drone', 'Surveilance Security System', 'Smart Home Automation', 'FeedBack System']
+    
     return (
         <>
             <div className='container' id='Projects'>
